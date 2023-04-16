@@ -1,8 +1,7 @@
 import axios from "axios";
 import jwt_decode from "jwt-decode";
 import { refreshTokenSuccess } from "./store/slices/authReducer";
-const API = "http://localhost:5000";
-// const API = "https://giahui-library-api.onrender.com";
+const API = "https://group05-library-api.onrender.com/";
 
 export const createAxios = (user) => {
   const newInstance = axios.create();
